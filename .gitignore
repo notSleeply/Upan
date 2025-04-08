@@ -1,0 +1,51 @@
+# 编译生成的文件
+*.exe
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+
+# Visual Studio Code 相关文件
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# 编译目录
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# 依赖包和中间文件
+/vendor/
+/packages/
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# 调试和日志文件
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# Windows系统生成的文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
